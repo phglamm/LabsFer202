@@ -1,0 +1,58 @@
+:root {
+  --background-color: #0f1214;
+}
+
+body[data-theme="dark"] {
+  --navbarcolor: #191970;
+  --background-content: #0f1214;
+  --footerBackground: #191970;
+  --icon: white;
+  --button: #191970;
+  --card-button: white;
+  --detail-button: #191970;
+  --card-text: white;
+}
+
+body[data-theme="light"] {
+  --navbarcolor: #b48484;
+  --background-content: white;
+  --footerBackground: #b48484;
+  --icon: #b48484;
+  --button: #b48484;
+  --card-button: #b48484;
+  --detail-button: #b48484;
+  --card-text: #b48484;
+}
+
+.main {
+  background-color: var(--background-color) !important;
+}
+
+.Appbar {
+  background-color: var(--navbarcolor) !important;
+}
+
+.content {
+  background-color: var(--background-content) !important;
+}
+
+.footer-content {
+  background-color: var(--footerBackground) !important;
+}
+
+.icon {
+  color: var(--icon) !important;
+}
+
+.form-button {
+  background-color: var(--button) !important;
+}
+
+.card-button {
+  font-weight: bold !important;
+  color: var(--card-text) !important;
+}
+
+.detail-button {
+  background-color: var(--detail-button) !important;
+}

@@ -1,0 +1,52 @@
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  flex-direction: column; // Added based on the second .form selector
+
+  h1 {
+    margin-bottom: 5%;
+  }
+
+  .form-button {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+  }
+
+  .form-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh 0;
+    width: 40%;
+  }
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.contact {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &-email,
+  &-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+  }
+}
+
+.icon {
+  color: #b48484;
+}
