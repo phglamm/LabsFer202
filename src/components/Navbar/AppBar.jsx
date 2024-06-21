@@ -174,7 +174,7 @@ function ResponsiveAppBar() {
                     className="icon-button"
                   >
                     <Avatar alt={user.email} src={user.photoURL} />
-                    <Typography className="display-name">
+                    <Typography className="display-name roboto-regular">
                       {user.displayName}
                     </Typography>
                   </IconButton>

@@ -63,6 +63,7 @@ const ToggleDarkMode = () => {
   return (
     <FormGroup className="thememode">
       <FormControlLabel
+        className="roboto-regular"
         control={
           <ToggleDarkModeSwitch
             checked={mode === "dark"}
